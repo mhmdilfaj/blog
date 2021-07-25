@@ -27,7 +27,7 @@
   --fg-color: var(--gray-800);
   --bg-color: #fff;
   
-  --spacer: 1rem;
+  --spacer: 1em;
   --spacer-2: calc(var(--spacer) * 1.5);
   --spacer-3: calc(var(--spacer) * 3);
   
@@ -44,15 +44,15 @@
 html,
 body {
   font-family: var(--system-font);
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.5;
   color: var(--fg-color);
   background-color: var(--bg-color);
 }
 
-@media (min-width: 25rem) {
+@media (min-width: 25em) {
   body {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 
