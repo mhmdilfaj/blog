@@ -8,7 +8,7 @@ title: Home
   <article class="mb-1">
     <time datetime="{{ post.date | date_to_xmlschema }}"><small>{{ post.date | date_to_long_string }}</small></time>
     <h3 class="p-0">
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <a href="{{ post.url | relative_url }}" class="text-dark">{{ post.title }}</a>
     </h3>
   </article>
   {% endfor%}
