@@ -41,6 +41,7 @@
   box-sizing: border-box;
 }
 
+html,
 body {
   font-family: var(--system-font);
   font-size: 20px;
@@ -144,7 +145,6 @@ h6 {
 p {
   margin-top: 0;
   margin-bottom: var(--spacer);
-  font-size: 1em;
 }
 
 small {
@@ -183,6 +183,7 @@ blockquote p:last-child {
 }
 
 code {
+  font-size: 90%}
   color: var(--gray-700);
   background-color: var(--gray-000);
 }
