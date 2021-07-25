@@ -7,9 +7,9 @@ title: Home
   {% for post in site.posts %}
   <article class="mb-1">
     <time datetime="{{ post.date | date_to_xmlschema }}"><small>{{ post.date | date_to_long_string }}</small></time>
-    <h2 class="p-0">
+    <h3 class="p-0">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </h2>
+    </h3>
   </article>
   {% endfor%}
 </section>
