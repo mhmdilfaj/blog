@@ -3,14 +3,31 @@ layout: post
 title: Styleguide
 ---
 
-## Paragraph
+<details open>
+  <summary>TOC</summary>
+  <ul>
+    <li><a href="#p">Paragraph</a></li>
+    <li><a href="#list">List</a></li>
+    <li><a href="#is">Inline style</a></li>
+    <li><a href="#img">Images</a></li>
+    <li><a href="#quotes">Quotes</a></li>
+    <li><a href="#Tables">Tables</a></li>
+    <li><a href="#cs">Code snippets</a></li>
+    <li><a href="#footnote">Footnote</a></li>
+    <li><a href="#hr">Horizontal rule</a></li>
+    <li><a href="#heading">Heading</a></li>
+    <li><a href="#dl">Definition list</a></li>
+  </ul>
+</details>
+
+## Paragraph {#p}
 Sudah merupakan fakta bahwa seorang pembaca akan terpengaruh oleh isi tulisan dari sebuah halaman saat ia melihat tata letaknya.
 
 Maksud penggunaan Lorem Ipsum adalah karena ia kurang lebih memiliki penyebaran huruf yang normal, ketimbang menggunakan kalimat seperti "Bagian isi disini, bagian isi disini", sehingga ia seolah menjadi naskah Inggris yang bisa dibaca. Banyak paket Desktop Publishing dan editor situs web yang kini menggunakan Lorem Ipsum sebagai contoh teks.
 
 Karenanya pencarian terhadap kalimat "Lorem Ipsum" akan berujung pada banyak situs web yang masih dalam tahap pengembangan. Berbagai versi juga telah berubah dari tahun ke tahun, kadang karena tidak sengaja, kadang karena disengaja (misalnya karena dimasukkan unsur humor atau semacamnya)
 
-## List
+## List {#list}
 ### Ordered
 1. do this
 2. then do that
@@ -21,7 +38,7 @@ Karenanya pencarian terhadap kalimat "Lorem Ipsum" akan berujung pada banyak sit
 - then do that
 - done
 
-## Inline style
+## Inline style {#is}
 - *italic text*
 - **bold text**
 - ~~deleted text~~
@@ -30,7 +47,7 @@ Karenanya pencarian terhadap kalimat "Lorem Ipsum" akan berujung pada banyak sit
 - <ins>inserted text</ins>
 - <cite>—cited text</cite>
 
-## Images
+## Images {#img}
 ![alt text](https://source.unsplash.com/U5rMrSI7Pn4)
 
 ### Images with caption
@@ -39,7 +56,7 @@ Karenanya pencarian terhadap kalimat "Lorem Ipsum" akan berujung pada banyak sit
   <figcaption>Anjing tiriseun</figcaption>
 </figure>
 
-## Quotes
+## Quotes {#quotes}
 > Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced.
 
 ### Quotes with citation
@@ -50,7 +67,7 @@ Karenanya pencarian terhadap kalimat "Lorem Ipsum" akan berujung pada banyak sit
   <figcaption>—Aldous Huxley, <cite><a href="https://www.huxley.net/bnw/four.html">Brave New World</a></cite></figcaption>
 </figure>
 
-## Tables
+## Tables {#tables}
 
 Col 1 | Col 2 | Col 3 | Col 4
 --- | --- | --- | ---
@@ -93,7 +110,7 @@ five | six | seven | eight
   </tbody>
 </table>
 
-## Code snippets
+## Code snippets {#cs}
 
 ```
 /* Footnote number within body text */
@@ -106,24 +123,24 @@ a[href^="#fnref:"] {
 }
 ```
 
-## Footnote
+## Footnote {#footnote}
 
 Like this[^fn-1], and this[^fn-2]
 
 [^fn-1]: footnote 1
 [^fn-2]: footnote 2
 
-## Horizontal rules
+## Horizontal rules {#hr}
 
 ---
 
-## Heading
+## Heading {#heading}
 
 ### Level 3 heading
 ## Level 2 heading
 # Level 1 heading
 
-## Definition list
+## Definition list {#dl}
 Internet
 : adalah sistem jaringan komputer yang saling terhubung secara global dengan menggunakan paket protokol internet (TCP/IP) untuk menghubungkan perangkat di seluruh dunia. Ini adalah jaringan dari jaringan yang terdiri dari jaringan privat, publik, akademik, bisnis, dan pemerintah lokal ke lingkup global, dihubungkan oleh beragam teknologi elektronik, nirkabel, dan jaringan optik. Internet membawa beragam sumber daya dan layanan informasi, seperti dokumen hiperteks yang saling terkait dan aplikasi World Wide Web (WWW), surat elektronik, telepon, dan berbagi berkas.
 
