@@ -97,6 +97,7 @@ thead th {
 
 table caption {
   caption-side: bottom;
+  font-size: 80%;
   text-align: left;
   color: var(--gray-700);
 }
@@ -107,6 +108,7 @@ figure {
 }
 
 figcaption {
+  font-size: 80%;
   color: var(--gray-700);
 }
 
