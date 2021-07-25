@@ -107,6 +107,10 @@ figure {
   padding: 0;
 }
 
+.figure {
+  margin-bottom: var(--spacer);
+}
+
 figcaption {
   font-size: 80%;
   color: var(--gray-700);
