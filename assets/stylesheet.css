@@ -117,34 +117,34 @@ h4,
 h5,
 h6 {
   margin-top: 0;
-  margin-bottom: .25rem;
-  padding-top: .5rem;
+  margin-bottom: .25em;
+  padding-top: .5em;
   line-height: 1.25;
   font-weight: 700;
 }
 
 h1 {
-  font-size: 1.75rem;
+  font-size: 1.75em;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.25em;
 }
 
 h4,
 h5,
 h6 {
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 p {
   margin-top: 0;
   margin-bottom: var(--spacer);
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 small {
@@ -224,16 +224,16 @@ a[href^="#fnref:"] {
 
 /* layout */
 .container {
-  max-width: 25rem;
+  max-width: 25em;
   padding-left: 24px;
   padding-right: 24px;
   margin-left:  auto;
   margin-right: auto;
 }
   
-@media (min-width: 25rem) {
+@media (min-width: 25em) {
   .container {
-    max-width: 30rem;
+    max-width: 30em;
   }
 }
 
