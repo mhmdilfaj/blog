@@ -1,5 +1,6 @@
 title: blog
 description: simple blog
+baseurl: /blog
 permalink: pretty
 plugins:
   - jekyll-seo-tag
