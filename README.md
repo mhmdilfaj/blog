@@ -1,2 +1,2 @@
 # blog
-simple blog
+simple jekyll blog
