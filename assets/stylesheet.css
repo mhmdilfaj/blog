@@ -74,6 +74,7 @@ img {
 table {
   margin-bottom: var(--spacer);
   width: 100%;
+  font-size: 80%;
   border: 0 solid var(--border-color);
   border-collapse: collapse;
 }
@@ -97,7 +98,6 @@ thead th {
 
 table caption {
   caption-side: bottom;
-  font-size: 80%;
   text-align: left;
   color: var(--gray-700);
 }
@@ -330,7 +330,7 @@ a[href^="#fnref:"] {
 .msg {
   padding: .5em;
   font-size: 80%;
-  color: var(--gray-700);
+  color: var(--gray-600);
   border: 1px solid var(--border-color);
 }
 
