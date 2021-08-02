@@ -1,5 +1,5 @@
 title: blog
-description: simple blog
+description: simple jekyll blog
 baseurl: /blog
 permalink: pretty
 plugins:
